@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.unac.ipd2.UsuarioActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_camera_alt_black_24dp"
+        android:background="@drawable/btn_circular"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignEnd="@+id/imageView2" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout3"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="26dp"
+                android:paddingLeft="20dp"
+                android:text="Apellidos:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="26dp"
+                android:paddingLeft="20dp"
+                android:text="Nombre:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="26dp"
+                android:paddingLeft="20dp"
+                android:text="DNI:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="26dp"
+                android:paddingLeft="20dp"
+                android:text="Nacimiento:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="26dp"
+                android:paddingLeft="20dp"
+                android:text="Telefono:"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="26dp"
+                android:paddingLeft="20dp"
+                android:text="Correo:"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout">
+
+
+        </LinearLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/linearLayout3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText7"
+        android:layout_alignTop="@+id/linearLayout3" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/editText7"
+        android:layout_toEndOf="@+id/linearLayout3" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/linearLayout3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/linearLayout3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/editText9"
+        android:layout_toEndOf="@+id/linearLayout3" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="7dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/editText10"
+        android:layout_toEndOf="@+id/linearLayout3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:textColor="#FFFFFF"
+        android:background="#CB2F1D"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginTop="15dp" />
+
+
+</RelativeLayout>
